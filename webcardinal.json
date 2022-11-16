@@ -1,0 +1,10 @@
+{
+    "pagesPathname": "pages",
+    "pagesFallback": {
+      "name": "Home"
+    },
+    "translations": false,
+    "pages": [
+      
+    ]
+}
