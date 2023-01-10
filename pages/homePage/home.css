@@ -1,0 +1,17 @@
+webc-app-container.slot-before.slot-after {
+    grid-template-rows: auto auto auto;
+}
+.container.app-container{
+    height: 500px;
+}
+.before, .after{
+    color: red;
+    text-align: center;
+}
+.page-content-container{
+    color: darkblue;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    height: 500px;
+}
