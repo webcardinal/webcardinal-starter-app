@@ -1,10 +1,24 @@
 {
+    "theme": "blue-fluoride-theme",
     "pagesPathname": "pages",
     "pagesFallback": {
-      "name": "Home"
+        "name": "home",
+        "src": "./homePage/home.html"
     },
     "translations": false,
     "pages": [
-      
+        {
+            "path": "./",
+            "name": "Home Page",
+            "tag": "home",
+            "src": "./homePage/home.html"
+        },
+        {
+            "path": "./dataTagPage",
+            "name": "DataTag Page",
+            "tag": "dataTagPage",
+            "src": "./dataTagPage/dataTagPage.html"
+        }
     ]
 }
+
